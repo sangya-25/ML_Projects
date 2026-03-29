@@ -1,0 +1,22 @@
+body, #root {
+  background: #181028;
+  color: #faf7ff;
+}
+
+h1, h2 {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 700;
+}
+
+:root {
+  --bits-primary: #b16eff;
+  --bits-text: #faf7ff;
+  --bits-accent: #d72660;
+}
+
+/* Remove legacy card/logo/demo section styles */
+.logo,
+.card,
+.read-the-docs {
+  display: none !important;
+}
